@@ -1,0 +1,52 @@
+*{
+    font-family: 'Alata', sans-serif;
+}
+
+body {
+    background-image: url("backgroundimage.jpg");
+    background-color: #cccccc;
+    background-size: 1in;
+   }
+
+.container-opaque {
+    border-radius: 10px;
+    width: 85%;
+    margin-top: 30px;
+    background-color: #f1f2f3;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.pinkBttn {
+    background-color: #fed0ff;
+    border-radius: 6px;
+}
+
+.customPadding {
+    margin-top: 16px;
+}
+
+.btn-primary {
+    background-color: #fc99cf;
+    border-color: #fc99cf;
+}
+
+.btn-primary:hover {
+    background-color: #fe68cf;
+    border-color: #fe68cf;
+}
+
+.btn-primary.focus, .btn-primary:focus {
+    background-color: #cf9bfb;
+    border-color: #cf9bfb;
+    box-shadow: 0 0 0 0.2rem rgba(252,153,207,.5);
+}
+
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
+    background-color: #cf9bfb;
+    border-color: #cf9bfb;
+}
+
+.btn-primary:not(:disabled):not(.disabled).active:focus, .btn-primary:not(:disabled):not(.disabled):active:focus, .show>.btn-primary.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem rgba(252,153,207,.5);
+}
