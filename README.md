@@ -1,1 +1,1 @@
-# kevinconnell96.github.io
+This is a responsive, interactive site that houses my projects and information for perspective employers. This website itself demonstrates use of bootstrap's responsive layouts for viewing on a multitude of screen sizes. 
