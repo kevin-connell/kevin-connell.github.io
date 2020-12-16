@@ -1,13 +1,14 @@
 import React from "react";
+import WelcomeMessage from "../compnents/WelcomeMessage";
+import ProjectList from "../compnents/ProjectList";
 
 
 
 function Welcome() {
     return (
         <>
-            <p>This is a placeholder</p>
-
-            
+        <WelcomeMessage />
+        <ProjectList />
         </>
     );
 }

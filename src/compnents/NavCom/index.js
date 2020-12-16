@@ -17,7 +17,7 @@ const NavCom = (props) => {
     return (
         <div>
             <Navbar style={{backgroundColor: "lightblue"}} light expand="md">
-                <NavbarBrand className="initials" href="/">KC</NavbarBrand>
+                <NavbarBrand style={{position: "relative", bottom: "3px"}} className="initials" href="/">KC</NavbarBrand>
                 <NavbarToggler onClick={toggle} />
                 <Collapse isOpen={isOpen} navbar>
                     <Nav className="mr-auto" navbar>
