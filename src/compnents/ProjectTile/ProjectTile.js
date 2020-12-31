@@ -14,7 +14,10 @@ const ProjectTile = (props) => {
 
     useEffect(() => {
         const observer = new IntersectionObserver(entries => {
-            entries.forEach(entry => setVisible(entry.isIntersecting));
+            if (entries[0].isIntersecting) {
+                setVisible(true);
+                observer.unobserve(domRef.current);
+            };
         });
         observer.observe(domRef.current);
     }, []);
@@ -24,7 +27,7 @@ const ProjectTile = (props) => {
 
 
     return (
-        <div onClick={clickLink} onMouseEnter={toggle} onMouseLeave={toggle} className={`projectTile fade-in-section ${isVisible ? 'is-visible' : ''}`} ref={domRef}>
+        <div onClick={clickLink} onMouseEnter={toggle} onMouseLeave={toggle} className={`projectTile fade-in-section ${props.dark ? 'dark' : ''} ${isVisible ? 'is-visible' : ''}`} ref={domRef}>
             <img className="projectImage" src={props.image} alt={props.title}></img>
             <div className="projectTitle" style={{backgroundColor: props.color}}>
                 <h2>{props.title}</h2>

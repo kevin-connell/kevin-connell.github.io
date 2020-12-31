@@ -1,0 +1,157 @@
+.whiteText {
+    color: white;
+}
+
+#aboutMeContainer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+#headShotContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #808080;
+    border-radius: 35px;
+    height: 375px;
+    width: 90%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+#headShot {
+    max-height: calc(100% - 125px);
+}
+
+#contentPlayground {
+    position: relative;
+    width: 100%;
+    max-width: 520px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+#bioContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #51385f;
+    width: 90%;
+    border-radius: 35px;
+    margin-top: 45px;
+    padding-top: 330px;
+}
+
+#bioText {
+    padding: 20px 20px 0px;
+}
+
+#contactInfo {
+    
+    width: 94%;
+    max-width: 450px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+@media (min-width: 992px) {
+
+    #headShotContainer {
+        height: 375px;
+        width: 410px;
+    }
+    
+    #headShot {
+        height: 300px;
+        max-height: none;
+    }
+    
+    #contentPlayground {
+        width: 800px;
+        max-width: none;
+        height: 430px;
+    }
+    
+    #bioContainer {
+        height: 380px;
+        width: 740px;
+        position: absolute;
+        bottom: 0px;
+        right: 0px;
+        max-width: none;
+    }
+    
+    #bioText {
+        height: 380px;
+        width: 390px;
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        padding: 20px;
+    }
+    
+    #contactInfo {
+        position: absolute;
+        width: 740px;
+        bottom: 10px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+}
+
+@media (min-width: 576px) { 
+    #linkCircles{
+        max-width: 65px;
+        flex-wrap: wrap;
+    }
+
+    #headShotContainer {
+        flex-direction: row;
+    }
+    #headShot {
+        max-height: 90%;
+    }
+
+}
+
+#linkCircles {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.linkContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.circleEl {
+    width: 45px;
+    height: 45px;
+    background-color: lightskyblue;
+    border-radius: 50%;
+    margin: 10px 0px 2px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+
+.circleEl:hover {
+    background-color: rgb(107, 198, 255);
+}
+
+.circleText {
+    margin: 0px;
+    padding: 3px 0px;
+}

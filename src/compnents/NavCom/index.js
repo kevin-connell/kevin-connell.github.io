@@ -16,19 +16,19 @@ const NavCom = (props) => {
 
     return (
         <div>
-            <Navbar style={{backgroundColor: "lightblue"}} light expand="md">
+            <Navbar style={{backgroundColor: "black"}} dark expand="md">
                 <NavbarBrand style={{position: "relative", bottom: "3px"}} className="initials" href="/">KC</NavbarBrand>
-                <NavbarToggler onClick={toggle} />
+                <NavbarToggler style={{border: "none"}} onClick={toggle} />
                 <Collapse isOpen={isOpen} navbar>
                     <Nav className="mr-auto" navbar>
                         <NavItem>
-                            <NavLink href="/">ABOUT</NavLink>
+                            <NavLink href="#aboutMeContainer">ABOUT</NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink href="/portfolio">PORTFOLIO</NavLink>
+                            <NavLink href="#projectContainer">PORTFOLIO</NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink href="/contact">CONTACT</NavLink>
+                            <NavLink href="#aboutMeContainer">CONTACT</NavLink>
                         </NavItem>
                     </Nav>
                 </Collapse>

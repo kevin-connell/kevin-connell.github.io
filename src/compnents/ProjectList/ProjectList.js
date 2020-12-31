@@ -8,7 +8,7 @@ const ProjectList = () => {
 
     return (
         <Container id="projectContainer">
-            {projects.map((item, index) => <ProjectTile key={index} title={item.title} description={item.description} color={item.color} link={item.link} image={item.image}/>)}
+            {projects.map((item, index) => <ProjectTile key={index} title={item.title} description={item.description} color={item.color} link={item.link} image={item.image} dark={item.dark}/>)}
         </Container>
     );
 }

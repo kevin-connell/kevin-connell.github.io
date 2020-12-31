@@ -8,12 +8,14 @@
     background-color: #bdd8e6;
 }
 
+.dark {
+    color: white;
+}
+
 .projectImage {
     display: inline;
     margin: 0 auto;
     width: 100%;
-    height: 100%;
-    width: auto;
 }
 
 
