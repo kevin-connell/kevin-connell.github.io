@@ -1,0 +1,70 @@
+#skillContainer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 150px;
+    position: relative;
+}
+
+.skillBox {
+    width: 130px;
+    height: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.skillTitle {
+    color: #808080;
+    position: absolute;
+    bottom: -25px;
+}
+
+.skillBox:hover .skillTitle{
+    color: white;
+}
+
+.skillCircle {
+    width: 0px;
+    height: 0px;
+    border-radius: 50%;
+    background-color: lightskyblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 55px;
+    will-change: width, height;
+    transition: ease-in 100ms;
+}
+
+@keyframes popIn {
+    0%   {width: 0px; height: 2px;}
+    25%  {width: 90px; height: 90px;}
+    50%  {width: 100px; height: 100px;}
+    75%  {width: 90px; height: 90px;}
+    82%  {width: 80px; height: 80px;}
+    100% {width: 90px; height: 90px;}
+}
+
+@keyframes hoverOver {
+    0%  {width: 90px; height: 90px;}
+    25%  {width: 100px; height: 100px;}
+    50%  {width: 90px; height: 90px;}
+    75%  {width: 85px; height: 85px;}
+    100% {width: 100px; height: 100px;}
+}
+
+
+.skillBox:hover .skillCircle {
+    width: 100px; 
+    height: 100px;
+}
+
+.skillCircle.bubblePop {
+    width: 90px;
+    height: 90px;
+    animation-name: popIn;
+    animation-duration: 500ms;
+    animation-timing-function: ease-out;
+}
