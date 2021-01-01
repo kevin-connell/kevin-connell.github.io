@@ -39,22 +39,13 @@
 }
 
 @keyframes popIn {
-    0%   {width: 0px; height: 2px;}
+    0%   {width: 0px; height: 0px;}
     25%  {width: 90px; height: 90px;}
     50%  {width: 100px; height: 100px;}
     75%  {width: 90px; height: 90px;}
     82%  {width: 80px; height: 80px;}
     100% {width: 90px; height: 90px;}
 }
-
-@keyframes hoverOver {
-    0%  {width: 90px; height: 90px;}
-    25%  {width: 100px; height: 100px;}
-    50%  {width: 90px; height: 90px;}
-    75%  {width: 85px; height: 85px;}
-    100% {width: 100px; height: 100px;}
-}
-
 
 .skillBox:hover .skillCircle {
     width: 100px; 
