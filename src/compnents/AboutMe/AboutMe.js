@@ -18,7 +18,7 @@ const AboutMe = () => {
                 <div id="bioContainer">
                     <div id="bioText">
                         <h3 className="whiteText">ABOUT ME</h3>
-                        <p className="whiteText">I am a creative full stack web developer, with a background in fine arts and art history. I am eagar to leverage my experience leading a painting department with newly acquired web development skills to solve problems in the tech industry. I recently graduated from the University of Pennsylvania LPS Coding Bootcamp. Innovative problem-solving, creativity and teamwork are the core of my strengths! I enjoy visiting museums, hiking, cooking, and staying up to date with current events.</p>
+                        <p className="whiteText">I am a creative full stack web developer, with a background in fine arts and art history. I am eager to leverage my experience leading a painting department with newly acquired web development skills to solve problems in the tech industry. I recently graduated from the University of Pennsylvania LPS Coding Bootcamp. Innovative problem-solving, creativity and teamwork are the core of my strengths! I enjoy visiting museums, hiking, cooking, and staying up to date with current events.</p>
                     </div>
                     <div id="contactInfo">
                         <h5><a style={{color: "lightskyblue"}} href="mailto: kevin.t.connell@gmail.com">kevin.t.connell@gmail.com</a></h5>
