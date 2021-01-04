@@ -22,10 +22,10 @@ const NavCom = (props) => {
                 <Collapse isOpen={isOpen} navbar>
                     <Nav className="mr-auto" navbar>
                         <NavItem>
-                            <NavLink href="#aboutMeContainer">ABOUT</NavLink>
+                            <NavLink href="#projectContainer">PORTFOLIO</NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink href="#projectContainer">PORTFOLIO</NavLink>
+                            <NavLink href="#skillContainer">SKILLS</NavLink>
                         </NavItem>
                         <NavItem>
                             <NavLink href="#aboutMeContainer">CONTACT</NavLink>

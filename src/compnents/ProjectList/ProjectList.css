@@ -29,10 +29,11 @@
 }
 
 #projectContainer {
-    padding: 4px 0px 45px;
+    padding: 75px 0px 45px;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    position: relative;
 }
 
 .fade-in-section {

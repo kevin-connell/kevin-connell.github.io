@@ -3,12 +3,13 @@ import { faBootstrap, faJsSquare, faNodeJs, faNpm, faReact } from '@fortawesome/
 import { Container } from 'reactstrap';
 import "./Skills.css"
 import SkillCircle from '../SkillCircle';
+import { faPlus, faTerminal } from '@fortawesome/free-solid-svg-icons';
 
 const Skills = () => {
 
     return (
         <Container id="skillContainer">
-            <h2 style={{color: "white", position: "absolute", top: "-45px"}}>SKILLS</h2>
+            <h2 style={{color: "#808080", position: "absolute", top: "-45px"}}>SKILLS</h2>
             <SkillCircle title="HTML5" devicon={true} icon={'devicon-html5-plain-wordmark'} />
             <SkillCircle title="CSS3" devicon={true} icon={'devicon-css3-plain-wordmark'} />
             <SkillCircle title="JavaScript" icon={faJsSquare} />
@@ -28,6 +29,8 @@ const Skills = () => {
             <SkillCircle title="Git System" devicon={true} icon={'devicon-git-plain'} />
             <SkillCircle title="GitHub" devicon={true} icon={'devicon-github-original'} />
             <SkillCircle title="Heroku" devicon={true} icon={'devicon-heroku-plain-wordmark'} />
+            <SkillCircle title="Command Line" icon={faTerminal} />
+            <SkillCircle title="More to come..." icon={faPlus} />
         </Container>
     );
 }
