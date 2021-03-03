@@ -1,6 +1,22 @@
 const projects = 
 [
     {
+        "title": "Stratis DEMO",
+        "color": "#0093FF",
+        "image": "https://res.cloudinary.com/djlzaftm2/image/upload/v1614810698/ezgif-1-301131ce1e2a_xjvlrw.gif",
+        "description": "Temporary demo of CSS animation skills and ability to recreate from an existing design",
+        "link": "https://kevinconnell96.github.io/stratisAnimations/",
+        "dark": true
+    },
+    {
+        "title": "WIP CF Portfolio",
+        "color": "#5D8C3B",
+        "image": "https://res.cloudinary.com/djlzaftm2/image/upload/v1614809218/ezgif-1-4f838c0b8053_tqd7zs.gif",
+        "description": "A responsive portfolio website that showcases floral designs and tracks the user's position on the page",
+        "link": "https://kevinconnell96.github.io/courtneyFowlerPortfolio/",
+        "dark": true
+    },
+    {
         "title": "Hearth",
         "color": "#cf4748",
         "image": "https://res.cloudinary.com/djlzaftm2/image/upload/v1608319329/ezgif-3-d762697c0eef_n7c0jq.gif",

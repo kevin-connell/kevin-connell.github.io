@@ -1,3 +1,7 @@
+*{
+    font-family: arboria, sans-serif;
+}
+
 .projectTile {
     width: 360px;
     height: 250px;
