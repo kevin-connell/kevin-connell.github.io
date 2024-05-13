@@ -40,8 +40,7 @@ const WelcomeMessage = () => {
         </figure>
       </div>
       <h2 id="welcomeText">
-        I'm Kevin, a Philadelphia-based artist & full-stack developer with a
-        passion for solving problems with creativity
+        I'm Kevin, a creative software engineer with 3+ years of experience in complex problem-solving.
       </h2>
     </main>
   );
